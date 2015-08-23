@@ -1,0 +1,99 @@
+Data Dictionary - Human Activity Recognition Using Smartphones Dataset
+Tidy Dataset
+
+Subject: 2
+	Subject identifier
+		1-30 indicating subject number
+
+Activity: 6 possible word strings
+	Activity categories
+		Laying
+		Sitting
+		Standing
+		Walking
+		Walking_Downstairs
+		Walking_Upstairs
+
+Features Decoding
+Feature names are built using the following contributors. They are derived from triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration as well as triaxial angular velocity from the gyroscope. A full list of signals is below.
+
+t – time 
+f – Fast Fourier transform applied
+BodyAcc – body acceleration signal
+GravityAcc – gravity acceleration signal
+BodyAccJerk - body linear acceleration and angular velocity -> Jerk
+BodyGyro – body gyro signal
+BodyGyroJerk – body gyro jerk 
+Mag - magnitude of three-dimensional signals using the Euclidean norm
+X, Y, Z – axis 
+mean – mean value
+std – standard deviation
+
+Explicit Names
+tBodyAcc-mean()-X
+tBodyAcc-mean()-Y
+tBodyAcc-mean()-Z
+tBodyAcc-std()-X
+tBodyAcc-std()-Y
+tBodyAcc-std()-Z
+tGravityAcc-mean()-X
+tGravityAcc-mean()-Y
+tGravityAcc-mean()-Z
+tGravityAcc-std()-X
+tGravityAcc-std()-Y
+tGravityAcc-std()-Z
+tBodyAccJerk-mean()-X
+tBodyAccJerk-mean()-Y
+tBodyAccJerk-mean()-Z
+tBodyAccJerk-std()-X
+tBodyAccJerk-std()-Y
+tBodyAccJerk-std()-Z
+tBodyGyro-mean()-X
+tBodyGyro-mean()-Y
+tBodyGyro-mean()-Z
+tBodyGyro-std()-X
+tBodyGyro-std()-Y
+tBodyGyro-std()-Z
+tBodyGyroJerk-mean()-X
+tBodyGyroJerk-mean()-Y
+tBodyGyroJerk-mean()-Z
+tBodyGyroJerk-std()-X
+tBodyGyroJerk-std()-Y
+tBodyGyroJerk-std()-Z
+tBodyAccMag-mean()
+tBodyAccMag-std()
+tGravityAccMag-mean()
+tGravityAccMag-std()
+tBodyAccJerkMag-mean()
+tBodyAccJerkMag-std()
+tBodyGyroMag-mean()
+tBodyGyroMag-std()
+tBodyGyroJerkMag-mean()
+tBodyGyroJerkMag-std()
+fBodyAcc-mean()-X
+fBodyAcc-mean()-Y
+fBodyAcc-mean()-Z
+fBodyAcc-std()-X
+fBodyAcc-std()-Y
+fBodyAcc-std()-Z
+fBodyAccJerk-mean()-X
+fBodyAccJerk-mean()-Y
+fBodyAccJerk-mean()-Z
+fBodyAccJerk-std()-X
+fBodyAccJerk-std()-Y
+fBodyAccJerk-std()-Z
+fBodyGyro-mean()-X
+fBodyGyro-mean()-Y
+fBodyGyro-mean()-Z
+fBodyGyro-std()-X
+fBodyGyro-std()-Y
+fBodyGyro-std()-Z
+fBodyAccMag-mean()
+fBodyAccMag-std()
+fBodyBodyAccJerkMag-mean()
+fBodyBodyAccJerkMag-std()
+fBodyBodyGyroMag-mean()
+fBodyBodyGyroMag-std()
+fBodyBodyGyroJerkMag-mean()
+fBodyBodyGyroJerkMag-std()
+

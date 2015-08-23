@@ -1,6 +1,6 @@
-Getting and Cleaning Data Project
+#Getting and Cleaning Data Project
 
-Objectives
+#Objectives
 The run_analysis.R script addresses the objectives of the project for this class. They are:
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -8,7 +8,7 @@ The run_analysis.R script addresses the objectives of the project for this class
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Processing steps description
+#Processing steps description
 The run_analysis.R script goes through the following processing steps.
 
 Libraries are loaded. Two libraries are required to execute the script, magrittr and dplyr. The script will attempt to install the dplyr package so if it is not needed the user should select cancel.
@@ -39,17 +39,17 @@ To run the script, source run_analysis.R. All functionality required to meet the
 
 The script outputs the following messages for processing steps:
 
-Getting and Cleaning Data Project
+#Getting and Cleaning Data Project
 Author: Roger
----
+
 Loading required libraries.
 Installing dplyr library: Hit cancel if already installed.
 Directory structure is relative. Script assumes working directory set to one level above UCI HAR DATAset
----
+
 1.0: training and test data common setup
    -Loading features
     -Loading activity labels
----
+    
 2.0: training data processing steps
     -Loading training dataset
     -Loading training labels
@@ -59,7 +59,7 @@ Directory structure is relative. Script assumes working directory set to one lev
     -Changing column names for subjects
     -Changing column names for activities
     -Combining subjects, training labels, and training set
----
+
 3.0: test data processing steps
     -Loading test dataset
     -Loading test labels
@@ -69,16 +69,16 @@ Directory structure is relative. Script assumes working directory set to one lev
     -Changing column names for subjects
     -Changing column names for activities
     -Combining subjects, test labels, and test set
----
+
 4.0: Merging training and test data sets
----
+
 5.0: Creating data frame with only mean() and std() features
 5.0: Creating data frame with only mean() and std() features
----
+
 6.0 Creating table with average of each feature variable for each activity and user
     -Writing table to ./UCI HAR Dataset/meanbySubjectActivity.txt
     -Reading table and creating view
----
+
 End of program
 
 
